@@ -1,0 +1,30 @@
+node_modules
+dist
+.DS_Store
+.env
+
+# Remotion 渲染输出
+out
+
+# 大型模型权重（whisper / vosk，由脚本按需下载，不入 Git）
+.models/
+
+# 音频/视频素材与中间产物（体积大，克隆后自备）
+assets/
+public/**/*.mp3
+public/**/*.mp4
+public/**/*.wav
+public/**/*.webm
+public/**/*.mov
+public/**/*.png
+public/**/*.jpg
+public/**/*.jpeg
+
+# 调试输出（PNG 抽帧、布局量测、temp props）
+.v2/
+.v2h/
+.probe/
+.props.tmp.json
+
+# 本地 Agent 工作区
+.workbuddy/
